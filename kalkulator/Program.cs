@@ -16,6 +16,9 @@ namespace kalkulator
                 Console.WriteLine("0. Exit");
                 Console.WriteLine("1. ADD");
                 Console.WriteLine("2. Diff");
+                Console.WriteLine("3. Multiply");
+                Console.WriteLine("4. Divide");
+                Console.WriteLine("5. Power");
                 int menutOption = Convert.ToInt32(Console.ReadLine());
                 if (menutOption == 0)
                 {
