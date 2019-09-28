@@ -12,11 +12,13 @@ namespace kalkulator
         {
             while (true)
             {
-                Console.WriteLine("0.Exit");
-                Console.WriteLine("1. Add");
-                Console.WriteLine("2. Diff");
                 int menutOption = Convert.ToInt32(Console.ReadLine());
-                if (menutOption == 0)
+                if(menutOption == 0)
+                Console.WriteLine("0.Exit");
+                Console.WriteLine("1. add");
+                Console.WriteLine("2. Diff");
+                
+                
                 {
                     break;
                 }
